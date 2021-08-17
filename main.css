@@ -1,0 +1,166 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.attribution {
+  font-size: 30px;
+  text-align: center;
+  color: hsl(228, 45%, 44%);
+  font-family: 'Inter', sans-serif;
+}
+.attribution a { color: hsl(277, 64%, 61%);
+}
+body{
+  background: hsl(233, 47%, 7%);
+}
+
+section{
+  display: flex;
+  margin: 100px auto;
+  width: 50%;
+  margin-left: 250px;
+  font-family: 'Inter', sans-serif;
+}
+span{
+  color: hsl(277, 64%, 61%);
+}
+
+.card-section{
+  border: none;
+  border-radius: 10px 0 0 10px;
+  width: 400px;
+background: hsl(244, 38%, 16%);
+}
+
+.card-head{
+  margin: 8% 20px 2% 40px;
+}
+
+.card-head > h1{
+  color:  hsl(0, 0%, 100%);
+  font-size: 25px;
+  font-weight: 700;
+
+}
+
+ .card-text{
+   margin: 6% 55px 10% 40px;
+   color: hsla(0, 0%, 100%, 0.75);
+   line-height: 1.5;
+   font-size: 12.5px;
+   font-family:'Lexend Deca', sans-serif;
+ }
+
+ .card-stats{
+   display: flex;
+   margin: 4% 15px;
+   margin-left: 10px;
+ }
+
+.stat{
+  margin: 0 20px;
+}
+.first-stat,.second>h2{
+    margin-left: 10px;
+}
+.stat>h2{
+  color: hsl(0, 0%, 100%);
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.stat>p{
+  margin-left: 10px;
+   color: hsla(0, 0%, 100%, 0.75);
+   text-transform: uppercase;
+   font-size: 10.7px;
+}
+
+
+.image-section{
+
+
+
+}
+.main-img{
+  width: 370px;
+  height: 100%;
+border-radius: 0 10px 10px 0;
+}
+.overlay{
+  width: 370px;
+  height: 310px;
+  background: hsl(277, 64%, 61%);
+  position: absolute;
+  border-radius: 0 10px 10px 0;
+  opacity:0.5;
+  top: 100px;
+}
+.sec{
+  margin-left: 5px;
+}
+ @media (max-width:375px) {
+   section{
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 50px 10px 100px 90px;
+   }
+   .card-section{
+     width: 200px;
+     margin:0 20px 0;
+     border-radius: 0 0 10px 10px;
+     border: none;
+   }
+   .card-head{
+     margin-top: 15%;
+   }
+   .card-head>h1{
+     font-size: 17.5px;
+     margin-left: -15px;
+     margin-right: 1px;
+     text-align: center;
+   }
+   .card-text{
+     text-align: center;
+     font-size: 10.5px;
+     margin: 5px 15px 1px 30px;
+     line-height: 1.5;
+   }
+   .card-stats{
+     display: flex;
+     flex-direction: column;
+     text-align: center;
+   }
+   .image-section{
+     width: 40%;
+   }
+   .main-img{
+     width: 200px;
+     margin:0 20px -10px;
+     border-radius: 10px 10px 0 0;
+     border: none;
+   }
+   .first-stat>h2{
+     margin-top: 20px;
+   }
+   .stat>h2{
+     font-size: 15px;
+     margin-bottom: 5px;
+     margin-top: 10px;
+   }
+   .stat>p{
+     font-size: 7px;
+   }
+   .overlay{
+      width: 200px;
+      height: 166px;
+      border-radius: 10px 10px 0 0;
+      left: 110px;
+      top: 50px;
+   }
+.attribution{
+  display: none;
+}
+}
